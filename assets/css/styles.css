@@ -9,6 +9,7 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --first-color:#d29bfd;
   --first-color-1: hsl(28, 88%, 62%);
+  --credit-color:#007406;
   --first-color-2: hsl(315, 88%, 62%);
   --first-color-alt: hsl(315, 84%, 58%);
   --title-color: hsl(0, 0%, 95%);
@@ -457,7 +458,7 @@ img {
   display: inline-block;
   text-align: center;
   gap: 1rem;
-  color: var(--first-color);
+  color: var(--credit-color);
   font-size: var(--biggest-font-size);
   font-family: var(--second-font);
 }
